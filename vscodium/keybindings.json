@@ -1,0 +1,117 @@
+[
+  {
+      "key": "shift+delete",
+      "command": "editor.action.deleteLines",
+      "when": "textInputFocus && !editorReadonly"
+  },
+  {
+      "key": "shift+cmd+k",
+      "command": "-editor.action.deleteLines",
+      "when": "textInputFocus && !editorReadonly"
+  },
+  {
+      "key": "cmd+1",
+      "command": "workbench.view.explorer",
+      "when": "editorFocus && viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+      "key": "cmd+1",
+      "command": "-workbench.view.explorer",
+      "when": "editorFocus && viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+      "key": "shift+cmd+t",
+      "command": "workbench.action.terminal.openNativeConsole",
+      "when": "!terminalFocus"
+  },
+  {
+      "key": "shift+cmd+c",
+      "command": "-workbench.action.terminal.openNativeConsole",
+      "when": "!terminalFocus"
+  },
+  {
+      "key": "cmd+-",
+      "command": "-editor.fold",
+      "when": "editorFocus"
+  },
+  {
+      "key": "alt+cmd+[",
+      "command": "-editor.fold",
+      "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+      "key": "cmd+numpad_subtract",
+      "command": "-editor.fold",
+      "when": "editorFocus"
+  },
+  {
+      "key": "cmd+k cmd+0",
+      "command": "-editor.foldAll",
+      "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+      "key": "shift+cmd+-",
+      "command": "-editor.foldAll",
+      "when": "editorFocus"
+  },
+  {
+      "key": "shift+cmd+numpad_subtract",
+      "command": "-editor.foldAll",
+      "when": "editorFocus"
+  },
+  {
+      "key": "cmd+-",
+      "command": "-workbench.action.zoomOut"
+  },
+  {
+      "key": "cmd+=",
+      "command": "-editor.unfold",
+      "when": "editorFocus"
+  },
+  {
+      "key": "cmd+=",
+      "command": "-workbench.action.zoomIn"
+  },
+  {
+      "key": "cmd+=",
+      "command": "editor.action.fontZoomIn"
+  },
+  {
+      "key": "cmd+-",
+      "command": "editor.action.fontZoomOut"
+},
+{
+    "key": "shift+alt+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "alt+down",
+    "command": "-editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "shift+alt+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "alt+up",
+    "command": "-editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "shift+escape",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+},
+{
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+},
+{
+    "key": "cmd+d",
+    "command": "editor.action.duplicateSelection"
+}
+]

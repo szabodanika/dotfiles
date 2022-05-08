@@ -1,0 +1,175 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "gitlens.advanced.messages": {
+    "suppressFileNotUnderSourceControlWarning": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "git.enableSmartCommit": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "explorer.confirmDelete": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "editor.fontFamily": "Courier Prime",
+  // "editor.fontWeight": "500",
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "none",
+  "editor.fontLigatures": "false",
+  "git.autofetch": true,
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "beautify.ignore": "",
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": false,
+    "**/.project": false,
+    "**/.settings": false,
+    "**/.factorypath": false
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "glassit.alpha": 255,
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.outDir": "%DIR%/out",
+  "latex-workshop.message.error.show": false,
+  "latex-workshop.warning.error.show": false,
+  "latex-workshop.information.error.show": false,
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-xelatex",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%",
+        "-aux-directory=out",
+        "-output-directory=out"
+      ]
+    }
+  ],
+  "colorHelper.formatsOrder": [],
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.autoDetectColorScheme": true,
+  "workbench.colorCustomizations": {},
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "files.associations": {
+    "*.html": "html"
+  },
+  "json.schemas": [],
+  "code-runner.runInTerminal": true,
+  "editor.minimap.enabled": false,
+  "rust-analyzer.inlayHints.enable": false,
+  "editor.cursorWidth": 2,
+  "errorLens.followCursor": "activeLine",
+  "errorLens.followCursorMore": 2,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "extensions.ignoreRecommendations": true,
+  "window.titleBarStyle": "native",
+  "editor.tabSize": 2,
+  "workbench.settings.editor": "ui",
+  "customizeUI.activityBar": "regular",
+  "editor.mouseWheelZoom": true,
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "editor.fontSize": 16,
+  "ltex.java.maximumHeapSize": 128,
+  "ltex.language": "en-GB",
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.build.forceRecipeUsage": false,
+  "workbench.colorTheme": "opensumi-light",
+  "terminal.integrated.fontSize": 14,
+  "telemetry.telemetryLevel": "off",
+  "workbench.iconTheme": "vscode-icon-theme",
+  "workbench.tips.enabled": false,
+  "terminal.integrated.tabs.location": "left",
+  "editor.overviewRulerBorder": false,
+  "php.validate.executablePath": "/Applications/XAMPP/xamppfiles/bin/php-8.1.5"
+}

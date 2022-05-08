@@ -1,0 +1,30 @@
+
+ {
+    "Alt-/": "lua:comment.comment",
+    "Alt-a": "StartOfLine",
+    "Alt-d": "EndOfLine",
+    "Alt-f": "command:format",
+    "Alt-k": "command:hover",
+    "Alt-q": "QuitAll",
+    "Alt-r": "command:references",
+    "Alt-s": "VSplit",
+    "AltEnter": "Autocomplete",
+    "AltShift-s": "HSplit",
+    "AltShiftDown": "MoveLinesDown",
+    "AltShiftUp": "MoveLinesUp",
+    "CtrlA": "StartOfLine",
+    "CtrlDown": "ScrollDown",
+    "CtrlE": "EndOfLine",
+    "CtrlL": "ShellMode",
+    "CtrlO": "OpenFile",
+    "CtrlP": "CommandMode",
+    "CtrlShiftBackspace": "CutLine",
+    "CtrlSpace": "command:lspcompletion",
+    "CtrlUnderscore": "lua:comment.comment",
+    "CtrlUp": "ScrollUp",
+    "AltTab": "command:ft",
+    "Shift-Alt-a": "SelectToStartOfLine",
+    "Shift-Alt-d": "SelectToEndOfLine",
+    "ShiftDelete": "DeleteLine"
+    
+}

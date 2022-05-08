@@ -1,0 +1,9 @@
+{
+    "colorscheme": "geany",
+    "lsp.server": "lua=lua-lsp,rust=rls,java=jdt-ls,python=pyls,go=gopls,react=deno lsp,js.react=deno lsp,javascript=deno lsp,typescript=deno lsp={\"importMap\": \"./import_map.json\"}",
+    "scrollbar": true,
+    "scrollspeed": 20,
+    "softwrap": true,
+    "statusline": false,
+    "tabsize": 2
+}
